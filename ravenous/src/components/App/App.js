@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <h1>ravenous</h1>
       <SearchBar />;
-      <BusinessList business={const businesses}/>;
+      <BusinessList business={this.businesses} />;
     </div>
   );
 }
